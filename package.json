@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.4",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "wordle-with-nodejs",
+  "version": "1.0.0",
+  "description": "play wordle in the terminal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louzanizineddine/wordle-with-nodeJs.git"
+  },
+  "keywords": [
+    "wordle"
+  ],
+  "author": "LOUZNI zineddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louzanizineddine/wordle-with-nodeJs/issues"
+  },
+  "homepage": "https://github.com/louzanizineddine/wordle-with-nodeJs#readme"
+}
