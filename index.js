@@ -2,6 +2,7 @@ import chalk from "chalk";
 import inquirer from "inquirer";
 import Wordle from "./wordle.js";
 import readline from "readline-sync"
+console.log("Welcome to Wordle")
 let game = new Wordle();
 for (let i = 0; i < 6 ; i++) {
     console.log("==>")

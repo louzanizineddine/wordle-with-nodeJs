@@ -116,5 +116,4 @@ export default class Wordle {
         })
         console.log(display)
     }
-
 }
