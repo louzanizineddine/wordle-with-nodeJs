@@ -5,7 +5,7 @@ import readline from "readline-sync"
 console.log("Welcome to Wordle")
 let game = new Wordle();
 for (let i = 0; i < 6 ; i++) {
-    console.log("==>")
+    console.log("\t try to guess the word \t")
     let guess = readline.question();
     game.userGuess[0].value = guess[0]
     game.userGuess[1].value = guess[1]
