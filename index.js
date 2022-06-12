@@ -1,5 +1,6 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
+import {wordsList} from "./wordsList.js";
 import Wordle from "./wordle.js";
 import readline from "readline-sync"
 console.log("Welcome to Wordle")
@@ -7,6 +8,10 @@ let game = new Wordle();
 for (let i = 0; i < 6 ; i++) {
     console.log("\t try to guess the word \t")
     let guess = readline.question();
+    while(guess.length !== 5 || !wordsList.includes(guess)) {
+        console.log("\t your input is not valid english word")
+        guess = readline.question().toLowerCase();
+    }
     game.userGuess[0].value = guess[0]
     game.userGuess[1].value = guess[1]
     game.userGuess[2].value = guess[2]
