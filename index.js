@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 import {wordsList} from "./wordsList.js";
 import Wordle from "./wordle.js";
 import readline from "readline-sync"
-
+console.log("just some testint")
 console.log("Welcome to Wordle")
 let game = new Wordle();
 for (let i = 0; i < 6; i++) {
